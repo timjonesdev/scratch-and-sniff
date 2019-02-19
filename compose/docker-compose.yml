@@ -1,0 +1,8 @@
+version: '3.0'
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: ./Dockerfile
+    image: scratch_and_sniff
+    container_name: sas_container
